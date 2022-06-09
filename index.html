@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="cs/main.css" />
+    <title>Pakemon</title>
+</head>
+<body>
+
+   <div class="container site-container text-center">
+    <div class="container">
+        <img class="header-img" src="images/pokemon_logo.png" alt="Pakemon logo" width="610" height="225">
+    </div>
+
+    <form class="form mt-5 d-flex text-center justify-content-between">
+        <select class="form__select fw-bolder text-center" aria-label="Default select example">
+            <option selected>Gross</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div>
+              <input class="form__input text-center fw-bolder" type="text" placeholder="Search">
+              <img class="form__icon" src="images/Mask.svg" alt="icon" width="18" height="18">
+          </div>
+
+          <select class="form__selecttwo text-center fw-bolder" aria-label="Default select example">
+            <option selected>Aa-Zz</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+
+          <button class="button btn btn-primary border-dark bg-light text-black">Button</button>
+    </form>
+
+    <div class="pakemon-box mt-5">
+        <ul class="pakemon__list d-flex flex-wrap justify-content-between">
+
+        </ul>
+    </div>
+   </div>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="js/pokemon.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
